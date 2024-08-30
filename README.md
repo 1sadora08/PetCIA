@@ -1,4 +1,4 @@
 # PetCIA
-#Dê uma olhada em como nosso site está ficando!
-![image](https://github.com/user-attachments/assets/ab8614b5-f3c9-4cab-b080-7b0a4c7f2a94)
+# Dê uma olhada em como nosso site está ficando!
+![image](https://github.com/user-attachments/assets/a8916177-d3e6-45ad-b9d9-a436033ca22b)
 
