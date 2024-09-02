@@ -1,0 +1,83 @@
+body{
+    background: #FFFDEF no-repeat ;
+    background-image: url("PetCIAFundo.png") ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+.logo-img{
+    height: 45%;
+    width: 45%;
+}
+
+.logo{
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    border-radius: 20px;
+    width: 25%;
+    height: 35%;
+    padding: 1.5%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #2D4959 ;
+    box-shadow: 5px 5px 2.5px #d1cfc3;  
+}
+
+.cadastro{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white;
+}
+
+.informacao{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 320px;    
+}
+
+.label{
+    text-align: left;
+    width: fit-content;
+    color: white;   
+}
+
+.PoliticasDoSite{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white;
+    display: block;
+}
+
+button{
+    color: white;
+    background-color: #2D4959;
+    margin-top: 10%;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    font-size: large;
+    box-shadow: 3px 3px 1px #d1cfc3;      
+}
+
+button:hover{
+    background-color: #415E6C; 
+}
+
+.botao{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
