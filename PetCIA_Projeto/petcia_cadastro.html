@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petcia_cadastro.css">
+    <title>PetCIA Cadastro</title>
+</head>
+<body>
+    <div class="logo">
+        <img class="logo-img" src="./PetCIA.png" alt="">
+    </div>
+    
+    <div class="container">
+
+        <div class="cadastro">
+            <label class="label" for="Email">Email:</label><br>
+            <input class="informacao" placeholder="Digite seu Email..." id="email">
+            <br><br>
+            <label class="label" for="Usuario">Usuário:</label><br>
+            <input class="informacao" placeholder="Digite seu Usuário..." id="usuario">
+            <br><br>
+            <label class="label" for="Senha">Senha:</label><br>
+            <input type="password" class="informacao" placeholder="Digite sua Senha..." id="password">
+            <br><br> 
+            <label class="label" for="Senha">Confirme sua Senha:</label><br>
+            <input type="password" class="informacao" placeholder="Digite sua Senha..." id="passwordconfirme">
+            <br><br>
+        </div>
+        <div class="PoliticasDoSite">
+            <input type="checkbox">
+            <label for="PoliticasDoSite">Aceito todos os termos e políticas do site</label><br>
+        </div>
+        <div class="linklogin">
+            <label class="Jconta">Já possui uma conta?</label>
+            <a href="#" onclick="irParaLogin()">Login</a>
+        </div> 
+    </div>
+
+    <div class="botao">
+        <button type="button" onclick="cadastrar()">Cadastrar</button>
+    </div>
+    <script src="petcia_cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petcia_login.css">
+    <title>PetCIA Login</title>
+</head>
+<body>
+    <div class="logo">
+        <img class="logo-img" src="./PetCIA.png" alt="">
+    </div>
+
+
+
+    <div class="container">
+        <div class="cadastro">
+            <label class="label" for="Email">Email ou Usuário:</label><br>
+            <input class="informacao" placeholder="Digite seu Email ou Usuário..." id="login">
+            <br><br>
+            <label class="label" for="Senha">Senha:</label><br>
+            <input type="password" class="informacao" placeholder="Digite sua Senha..." id="password">
+            <br><br>
+        </div>
+        <div class="PoliticasDoSite">
+            <input type="checkbox">
+            <label for="PoliticasDoSite">Aceito todos os termos e políticas do site</label><br>
+            <div class="linkcadastro">
+                <label class="Nconta">Ainda não possui uma conta?</label>
+                <a href="#" onclick="irParaCadastro()">Cadastrar</a>
+            </div>
+        </div>
+    </div> 
+
+
+    <div class="botao">
+        <button type= "button" onclick="login()">Fazer Login</button>
+    </div>
+
+   <script src="petcia_login.js"></script>
+</body>
+</html>
