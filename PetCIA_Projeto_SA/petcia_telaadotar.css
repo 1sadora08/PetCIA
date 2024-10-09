@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #FFFDEF;
+}
+
+.navegação{
+    position: relative;
+    background-color: #F2E1AC;
+    width: 7.3%;
+    position: fixed; 
+    height: 100%;
+   
+}
+
+.navegação ul {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navegação ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logoimg{
+    width: 80%;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+.item-menu2{
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+    margin: 5px;
+}
+.item-menu{
+    margin: 5px;
+}
+
+.item-menu:hover{
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+}
+
+.imgstar{
+    width: 60%;
+}
+
+.botaosomos{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.informaçõesADT{
+    display: block;
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 1%;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+
+}
+
+.tituloanimais{
+    font-size: 30px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+
+.gatos {
+    padding: 20px;
+    border-radius: 20px;
+    width: 180px;
+    height: 268px;
+}
+
+.gatosadote{
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.gatoadoção{
+    display: block;
+    margin: 1.5%;
+    background-color: #D9F4FF;
+    border-radius: 20px;
+    
+}
+
+.gatoadoção p{
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
