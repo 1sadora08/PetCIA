@@ -9,5 +9,9 @@ Tela de Login:
 Tela Inicial
 ![image](https://github.com/user-attachments/assets/4fcc6c3c-180c-482c-9406-ee170726b806)
 
-Tela em desnvolvimento Adotar
-![image](https://github.com/user-attachments/assets/ee51286a-675e-404f-96f5-a31fe6a31c95)
+Tela Adotar (gato)
+![image](https://github.com/user-attachments/assets/40879dca-3c90-4313-87dc-d71e6d266e13)
+
+Tela de Cadastro Animal
+![image](https://github.com/user-attachments/assets/9f1e11e3-795c-45c9-ba67-a81b22ffef81)
+
