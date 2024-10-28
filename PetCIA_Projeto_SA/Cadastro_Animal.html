@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro_Animal.css">
+    <title>Cadastro do Animal</title>
+</head>
+<body>
+
+    <div class="informaçõesADT">
+        <div class="PetCiaeImg"> <h1>PETCIA</h1>
+            <!-- H1 Representa um cabeçalho ou usado para descrever um principal assunto -->   
+        </div>
+        
+         <p class="titulocadastro">Cadastro do animal:</p>
+        
+        <div class="animal">
+            <form id="formAnimal">
+                
+                <div class="cadastro"> 
+                    <label for="especie">Espécie</label><br>
+                    <select id="resposta">
+                        <option value="0">Passáro</option>
+                        <option value="0">Cão</option>
+                        <option value="0">Gato</option>
+                        <option value="0">Coelho</option>
+                    </select>
+                    <label for="idade">Idade</label><br>                   
+                    <input type="number" id="idade" placeholder="Digite a idade do animal..." required> 
+                    <label for="descricao">Descrição</label><br>
+                    <input type="text" id="descricao" placeholder="Adicione uma descrição do animal..." required>
+                </div>
+                <div class="cadastro">
+                    <label for="imagem">Imagem</label><br>
+                    <input type="text" id="imagem" placeholder="Adicione o URL da imagem..." required><br>
+                    <label for="animal">Nome do Animal</label><br>
+                    <input type="text" id="descricao" placeholder="Digite o Nome do Animal..." required>
+                    <label for="genero">Gênero</label><br>
+                    <select id="genero">
+                        <option value="0">Fêmea</option>
+                        <option value="0">Macho</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="botoes">
+            <button type="submit" class="CDanimal">Cadastrar Animal!</button>
+            <br><br>
+            <p>↓Animais Cadastrados↓</p> 
+            <br>
+    
+            <button onclick="limparAnimais()">Limpar cadastro</button>
+            <ul id="listaAnimais"></ul>
+                
+        </div>
+    </div>
+    
+    
+    <script src="petcia_mudarTela.js"></script>
+    <script src="Cadastro_Animal.js"></script>
+</body>
+</html>

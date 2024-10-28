@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #FFFDEF;
+}
+
+.navegação{
+    background-color: #F2E1AC;
+    width: 7.3%;
+    position: fixed; 
+    height: 100%;
+    top: 0;
+}
+
+.navegação ul {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navegação ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.informaçõesPC{
+    margin-left: 9%;
+    margin-top: 2%;
+
+}
+
+.logoimg{
+    width: 80%;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+.item-menu{
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+    margin: 5px;
+}
+.item-menu2{
+    margin: 5px;
+}
+
+.item-menu2:hover{
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+}
+
+.imgstar{
+    width: 60%;
+}
+
+.logoDoTexto{
+    height: 200px;
+    width: 200px;
+}
+
+.sobrepetcia{
+    display: flex;
+    margin-top: 2%;
+}
+
+.botaosomos{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 1%;
+}
+
+.textoSobreNós{
+    font-size: 40px ;
+    margin-left: 25px;
+    margin-top: 0.1%;
+    padding-right: 130px;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+button{
+    color: white;
+    background-color: #2D4959;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 3px 3px 1px #d1cfc3; 
+    margin-left: 13%;
+    cursor: pointer;
+}
+
+.OngsAmigs{
+    margin-top: 2%;
+}
+
+.ongtitulo{
+    font-size: 28px;
+}
+
+.logoongs{
+    height: 180px;
+    border-radius: 8%;
+    
+}
+
+.ongsP{
+    display: flex;
+    margin-top: 2%;
+}
+
+.sobreasongsP{
+    display: block;
+    font-size: 23px;
+    padding-right: 150px;
+    margin-left: 2%;
+    margin-top: 1%  ;
+}
+
+.ongsP-texto{
+    margin-top: 1%;
+}
+
+.logofocinhos{
+    margin-left: 1.5%;
+    margin-right: 2%;
+}
+
+.modalfundo{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    display: none;
+    position: fixed;
+}
+
+
+/*estilizando o modal*/
+.modal {
+    background-color: #F2E1AC;
+    width: 550px;
+    height: 480px;
+    text-align: center;
+    border-radius: 13px;
+    top: 50%; /* centraliza onde desejado verticalmente*/
+    left: 50%;/* centraliza o item horixontalmente*/
+    transform: translate(-50%, -50%); /*ajusta exatamente para o centro*/
+    border: solid 1px;
+    display: none;
+    position: fixed;
+}
+
+.fechamodal{
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.doarpix{
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 5px;     
+    display: flex;
+    padding-left: 40px;
+    margin-bottom: 10%;
+}
+
+.textodoe{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.qrcode{
+    display: flex;
+}
+
+.textodoe2{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 20%;
+}
+
+
