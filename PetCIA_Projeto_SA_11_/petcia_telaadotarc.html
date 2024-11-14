@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petcia_telaadotarc.css">
+    <title>Adotar</title>
+</head>
+<body>
+    <div class="navegação">
+        <ul>
+            <!-- UL Lista ordenada -->
+            <li>
+                <!-- Li é usado para representar um item que faz parte de uma lista. -->
+                <img src="PetCIAlogop.png" alt="logo" class="logoimg"><br>
+            </li>
+            <li >
+                <a href="#" onclick="irParaInicial()">
+                    <div class="botaosomos">
+                        <div class="item-menu">
+                            <span class="icone"><img class="imgstar" src="star-circle-outline.svg" alt="estrela"></span><br>
+                            <!-- Span é um conteiner generico em linha para conteúdo fraseado,Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ) -->
+                        </div>
+                        <span class="lista">Quem<br> somos</span>
+                    </div>
+                </a>
+            </li>
+            <li >
+                <a href="#" >
+                    <div class="item-menu2">
+                        <span class="icone"><img class="imgstar" src="star-circle-outline.svg" alt="estrela"></span><br>
+                    </div>
+                    <span class="lista">Adotar</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="informaçõesADT">
+        <div class="PetCiaeImg"> <h1>PETCIA</h1>
+            <!-- H1 Representa um cabeçalho ou usado para descrever um principal assunto -->
+            <div class="carrinhoAdoção"><img class="carrinhoAdoçãoimg"src="carrinhoDeAdoção.png"></div>
+        </div>
+        <div class="linha"></div>
+        <p class="tituloanimais">Animais disponíveis para adoção</p>
+
+        <div class="categorianimais">
+            <div class="categoriagatos">
+                <button onclick="irParaAdotar()" class="botaoanimal">Gatos</button>
+            </div>
+
+            <div class="categoriacaes">
+                <button onclick="irParaAdotarcao()" class="botaoselecionado">Cães</button>
+            </div>
+
+            <div class="categoriacoelhos">
+                <button onclick="irParaAdotarcoelho()" class="botaoanimal">Coelhos</button>
+            </div>
+
+            <div class="categoriaPapagaio">
+                <button onclick="irParaAdotarpassaro()" class="botaoanimal">Passáro</button>
+            </div>
+        </div>
+
+        
+        <div class="caesadote">
+            
+            <div class="caoadoção" onclick="irParaDescriçãoCao1()">
+                <img class="caes" src="imgCaes/cão1.png" alt="imagem 3"/>
+                <p>Manteiga</p>
+            </div>
+            
+            <div class="caoadoção" onclick="irParaDescriçãoCao2()">
+                <img class="caes" src="imgCaes/cao2.png" alt="imagem 3"/>
+                <p>Pateta</p>
+            </div>
+            
+            <div class="caoadoção" onclick="irParaDescriçãoCao3()">
+                <img class="caes" src="imgCaes/cao3.png" alt="imagem 3"/>
+                <p>Carlos</p>
+            </div>
+            
+            <div class="caoadoção" onclick="irParaDescriçãoCao4()">
+                <img class="caes" src="imgCaes/cao4.png" alt="imagem 4"/>
+                <p>Lulu</p>
+            </div>
+            
+            <div class="caoadoção" onclick="irParaDescriçãoCao5()">
+                <img class="caes" src="imgCaes/cao5.png" alt="imagem 5"/>
+                <p>Mara</p>
+            </div>
+            
+            <div class="caoadoção" onclick="irParaDescriçãoCao6()">
+                <img class="caes" src="imgCaes/cao6.png" alt="imagem 6"/>
+                <p>Chef</p>
+            </div>
+                
+             <div class="caoadoção" onclick="irParaDescriçãoCao7()">
+                <img class="caes" src="imgCaes/cao7.png" alt="imagem 7"/>
+                <p>Pel</p>
+            </div>
+                
+            <div class="caoadoção" onclick="irParaDescriçãoCao8()">
+                <img class="caes" src="imgCaes/cao8.png" alt="imagem 8"/>
+                <p>Lica</p>
+            </div>
+            <div class="caoadoção" onclick="irParaDescriçãoCao9()">
+                <img class="caes" src="imgCaes/cao9.png" alt="imagem 9"/>
+               <p>Darlan</p>
+            </div>
+                <div class="caoadoção" onclick="irParaDescriçãoCao10()">
+                    <img class="caes" src="imgCaes/cao10.png" alt="imagem 10"/>
+                    <p>Abril</p>
+                </div>
+            </div>
+            <div class="altereul">
+                <ul  class="caesadote" id="listaAnimais2"></ul>
+            </div>
+        </div>
+        <script src="petcia_mudarTela.js"></script>
+        
+</body>    
