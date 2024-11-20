@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #FFFDEF;
+}
+
+.navegação{
+    position: relative;
+    background-color: #F2E1AC;
+    width: 7.3%;
+    position: fixed; 
+    height: 100%;
+   
+}
+
+.navegação ul {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.navegação ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logoimg{
+    width: 80%;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+.item-menu2{
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+    margin: 5px;
+}
+.item-menu{
+    margin: 5px;
+}
+
+.item-menu:hover{
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+}
+
+.imgstar{
+    width: 60%;
+}
+
+.botaosomos{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.informaçõesADT{
+    display: block;
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 1%;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+
+}
+
+.tituloanimais{
+    font-size: 30px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.altereul ul p{
+    margin-bottom: 30px;
+}
+
+.altereul ul img{
+    padding: 20px;
+    width: 180px;
+    height: 300px;
+    object-fit: cover; /* Para não distorcer a imagem */
+}
+.caes {
+    padding: 20px;
+    width: 180px;
+    height: 300px;
+    object-fit: cover; /* Para não distorcer a imagem */
+}
+
+
+.caesadote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.caoadoção{
+    display: block;
+    margin: 1%;
+    background-color: #D9F4FF;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-left: 3%;
+}
+
+.caoadoção:hover{
+    transform: scale(1.1);
+}
+
+.caoadoção p{
+    margin-left: 10%;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.carrinhoAdoçãoimg{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    width: 80px; 
+    height: auto; 
+    max-width: 100%;
+    cursor: pointer;
+    transform: scale(1); /* Escala inicial */
+}
+
+.PetCiaeImg{
+    display: flex;
+
+}
+
+
+.categorianimais{
+    display: flex;
+    margin-left: 2.5%;
+    margin-bottom: 4%;
+}
+
+.botaoanimal{
+    border-radius: 35px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20%;
+    cursor: pointer;
+    background-color: #D9F4FF;
+}
+
+.botaoselecionado{
+    border-radius: 35px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20%;
+    cursor: pointer;
+    background-color: #2D4959;
+    color: white;
+}
+
+.botaoanimal:hover{
+    background: #2D4959;
+    color: white;
+}
