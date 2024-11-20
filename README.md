@@ -1,6 +1,6 @@
 # PetCIA🐾
-# Dê uma olhada em como nosso site está ficando!
-# Tela de cadastro:
+# Dê uma olhada em como nosso site está ficando!<>
+# <h4>Tela de cadastro:<h4>
 ![image](https://github.com/user-attachments/assets/65611ba4-b3ef-4e63-a773-ea8cff668d8c)
 
 Tela de Login:
