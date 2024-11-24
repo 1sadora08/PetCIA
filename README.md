@@ -12,7 +12,7 @@ Paleta🎨:
 <li>#2D4959</li>
 </ul>
 
-Nossa logo
+Nossa logo🐾
 ![PetCIA](https://github.com/user-attachments/assets/b6ccf51d-55da-44d3-94a9-bb6b4029c346)
 
 
