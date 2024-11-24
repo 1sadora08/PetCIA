@@ -1,4 +1,16 @@
 # PetCIA🐾
+Olá a você que está vendo este site, gostaria de lhes apresentar como ele funciona.<br>
+Somo um site com um sistema de adoção online de animais, buscando o melhor para que nossos queridos pets possam encontrar donos Maravilhosos.
+O nosso site apresenta uma paleta de cor mais vintage, para que você se apegue visualmente a ele e resalte a naturalidade dos animais:
+Paleta:
+#<ul>
+<li>#c4c7bd</li>
+<li>#0d0d0d</li>
+<li>#fffdef</li>
+<li>#f2e1ac</li>
+<li>#d9f4ff</li>
+<li>#2D4959</li>
+</ul>
 # Dê uma olhada em como nosso site está ficando!
 # <h4>Tela de cadastro:<h4>
 ![image](https://github.com/user-attachments/assets/65611ba4-b3ef-4e63-a773-ea8cff668d8c)
