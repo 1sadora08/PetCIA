@@ -1,8 +1,8 @@
 # PetCIA🐾
-Olá a você que está vendo este site, gostaria de lhes apresentar como ele funciona.<br>
-Somos um site com um sistema de adoção online de animais, buscando o melhor para que nossos queridos pets possam encontrar donos Maravilhosos.
-O nosso site apresenta uma paleta de cor mais vintage, para que você se apegue visualmente a ele e resalte a naturalidade dos animais:
-Paleta🎨:
+<h4>Olá a você que está vendo este site, gostaria de lhes apresentar como ele funciona.<br>
+Somos um site com um sistema de adoção online de animais, buscando o melhor para que nossos queridos pets possam encontrar donos Maravilhosos.<br>
+O nosso site apresenta uma paleta de cor mais vintage, para que você se apegue visualmente a ele e resalte a naturalidade dos animais<br></h4>
+<h3>Paleta🎨:</h3>
 <ul>
 <li>#c4c7bd</li>
 <li>#0d0d0d</li>
