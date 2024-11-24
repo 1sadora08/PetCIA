@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petcia_telaadotarpassaro.css">
+    <title>Adotar</title>
+</head>
+<body>
+    <div class="navegação">
+        <ul>
+            <!-- UL Lista ordenada -->
+            <li>
+                <!-- Li é usado para representar um item que faz parte de uma lista. -->
+                <img src="Imagens/PetCIAlogop.png" alt="logo" class="logoimg"><br>
+            </li>
+            <li >
+                <a href="#" onclick="irParaInicial()">
+                    <div class="botaosomos">
+                        <div class="item-menu">
+                            <span class="icone"><img class="imgstar" src="Imagens/star-circle-outline.svg" alt="estrela"></span><br>
+                            <!-- Span é um conteiner generico em linha para conteúdo fraseado,Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ) -->
+                        </div>
+                        <span class="lista">Quem<br> somos</span>
+                    </div>
+                </a>
+            </li>
+            <li >
+                <a href="#" >
+                    <div class="item-menu2">
+                        <span class="icone"><img class="imgstar" src="Imagens/star-circle-outline.svg" alt="estrela"></span><br>
+                    </div>
+                    <span class="lista">Adotar</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="informaçõesADT">
+        <div class="PetCiaeImg"> <h1>PETCIA</h1>
+            <!-- H1 Representa um cabeçalho ou usado para descrever um principal assunto -->
+            <div class="carrinhoAdoção"><img onclick="abriradocao()" class="carrinhoAdoçãoimg"src="Imagens/carrinhoDeAdoção.png"></div>
+            <div class="menucarrinhoadote" id="carrinhoAdocao"><br>
+                <div onclick="fecharadote()"class="fechacarrinho">⛌</div><br> 
+                <div class="animaisadotados1">
+                    <ul id="listaAdotados"class="animaisadotados" ></ul>
+                </div>
+            </div>
+        </div>
+        <div class="linha"></div>
+        <p class="tituloanimais">Categoria para Adoção</p>
+        
+        <div class="categorianimais">
+            <div class="categoriagatos">
+                <button onclick="irParaAdotar()" class="botaoanimal">Gatos</button>
+            </div>
+            
+            <div class="categoriacaes">
+                <button onclick="irParaAdotarcao()" class="botaoanimal">Cães</button>
+            </div>
+            
+            <div class="categoriacoelhos">
+                <button onclick="irParaAdotarcoelho()" class="botaoanimal">Coelhos</button>
+            </div>
+            
+            <div class="categoriaPapagaio">
+                <button onclick="irParaAdotarpassaro()"class="botaoselecionado">Passáro</button>
+            </div>
+        </div>
+        <h2 class="tituloadoteAnimais">Animais para Adoção</h2>
+        
+        <div class="altereul">
+        <ul class="passarosadote" id="listaAnimais2"></ul></div>   
+        <script src="petcia_mudarTela.js"></script>
+        <script src="MenuAdotarcarrinho.js"></script>
+    </body>    
