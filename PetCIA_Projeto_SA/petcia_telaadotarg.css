@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #FFFDEF;
+}
+
+.navegação{  /* é a barra lateral (cor, tamanho, fixo e sombra*/
+    background-color: #F2E1AC;
+    width: 7.3%;
+    position: fixed; 
+    height: 100%;
+    box-shadow: 0 2px 15px 5px #b8b7ab;  
+}
+
+.navegação ul { /*na barra lateral, ta alinhando tudo que contém dentro (logo e estrela) ao centro no container na barra*/
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logoimg{
+    width: 80%;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+.item-menu2{ /* é somente o botão estrela*/
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+    margin: 5px;
+}
+.item-menu{ /* é somente o botão estrela*/
+    margin: 5px;
+}
+
+.item-menu:hover{ /* é somente o botão estrela*/
+    background: #D2B6A6 ;
+    border-radius: 35px;
+    filter: invert();
+    box-shadow: 0 5px 3px #4564a9;
+}
+
+.imgstar{
+    width: 60%;
+}
+
+.botaosomos{ /* é o tamanho botão estrela*/
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.informaçõesADT{ /* engloba somente uma parte da tela, a barra lateral não está incluida*/
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 1%;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+
+}
+
+.tituloanimais{ /* titulo Categoria para Adoção */
+    font-size: 30px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+
+
+.gatos { /* imagens gatos*/
+    padding: 20px;
+    width: 180px;
+    height: 300px;
+    object-fit: cover; /* Para não distorcer a imagem */
+}
+
+
+.gatosadote{ /* engloba todos os containers (veja o seguinte)*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.gatoadoção{ /* o container individual de cada animal, (cada caixa contem imagem, nome e botões) */
+    margin: 1%;
+    background-color: #D9F4FF;
+    border-radius: 20px;
+    transition: transform 0.2s;
+    margin-left: 3%;
+}
+
+.gatoadoção:hover{
+    transform: scale(1.1);
+}
+
+.gatoadoção p{
+    margin-left: 10%;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.carrinhoAdoçãoimg{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    width: 80px; 
+    height: auto; 
+    max-width: 100%;
+    cursor: pointer;
+    /* Escala inicial */
+}
+
+.menucarrinhoadote {
+    background-color: #F2E1AC;
+    width: 450px;
+    height: 480px;
+    border-radius: 13px;
+    top: 85px; 
+    right: 2%; /* Posição do menu a partir da borda direita da tela */
+    border: solid 1px;
+    position: absolute; 
+    z-index: 1; 
+    overflow-y: auto;
+    display: none; /* Inicialmente invisível */
+}
+
+.fechacarrinho{
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+
+.animaisadotados{ /*É a lista de cada animal do carrinho*/
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.PetCiaeImg{ /* o titulo e o carrinho */
+    display: flex;
+}
+
+
+.categorianimais{ /* botões de categoria */
+    display: flex;
+    margin-bottom: 4%;
+    margin-left: 2.5%;
+}
+
+.botaoanimal{ /* botões das categorias */
+    border-radius: 35px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20%;
+    background-color: #D9F4FF;
+}
+
+.botaoselecionado{ /* categoria selecionada */
+    border-radius: 35px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20%;
+    background-color: #2D4959;
+    color: white;
+}
+
+.botaoanimal:hover{
+    background: #2D4959;
+    color: white;
+}
+
+.infoAnimal{ /* os botões do container  (cada caixa contem imagem, nome e botões) dos animais individuais, */
+    border-radius: 45px;
+    width: 70px;
+    height: 30px;
+    background-color: #2D4959;
+    color: white;
+    margin-left: 2%;
+}
+
+.doisbotoes{
+    padding: 20px;
+    text-align: center;
+}
+
+/* os animais que estão no carrinho*/
+.animaisadotados1 ul img{ /* lembrando o display block é padrão tá, mas só ta sendo utilizado para não haver alterações*/
+    border-radius:20px;
+    display: block
+}
+
+/* os animais que estão no carrinho botao*/
+.animaisadotados1 button{
+    background-color: #2D4959;
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+
+}
+
+/* os animais que estão no carrinho*/
+.animaisadotados1 li{
+    background-color: #D9F4FF;
+    border-radius: 15px;
+    margin-bottom:2%;
+    list-style: none;
+    width:310px;
+    height:auto;
+    padding: 2%;    
+    text-transform: uppercase;
+}
+
+
+
+.tituloadoteAnimais{
+    margin-bottom: 20px;
+    margin-left: 4%;
+
+}
+
+/* css do botão da div criada no js os botões do container  (cada caixa contem imagem, nome e botões) */
+
+.botaoContainer {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    padding: 10%;
+}
+
+button{
+    cursor: pointer;
+}
+
